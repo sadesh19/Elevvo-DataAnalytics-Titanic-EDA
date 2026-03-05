@@ -7,6 +7,7 @@ This project focuses on **Exploratory Data Analysis (EDA) and Data Cleaning** of
 ### **Dataset**
 
 **Source:** [Titanic: Machine Learning from Disaster (Kaggle)](https://www.kaggle.com/c/titanic)
+
 **Task Level:** Level 1
 
 ### **Key Tasks Performed**
