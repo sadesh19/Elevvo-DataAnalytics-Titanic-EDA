@@ -1,70 +1,40 @@
-Gemini said
-Since you are using GitHub for your submission, a strong README.md is essential to show your internship supervisors that you can document your technical work professionally.
+# Titanic: Machine Learning from Disaster - EDA 🚢
 
-Here is a template you can copy and paste directly into your GitHub repository.
+### **Project Overview**
 
-Titanic: Machine Learning from Disaster - EDA 🚢
-Project Overview
-This project focuses on Exploratory Data Analysis (EDA) and Data Cleaning of the classic Titanic dataset as part of my Data Analytics Internship. The goal is to identify key factors that influenced passenger survival using Python and statistical visualization.
-+2
+This project focuses on **Exploratory Data Analysis (EDA) and Data Cleaning** of the classic Titanic dataset as part of my **Data Analytics Internship**. The goal is to identify key factors that influenced passenger survival using **Python** and statistical visualizations.
 
-Dataset
+### **Dataset**
 
-Source: Titanic: Machine Learning from Disaster (Kaggle) https://www.kaggle.com/competitions/titanic/data
+**Source:** [Titanic: Machine Learning from Disaster (Kaggle)](https://www.kaggle.com/c/titanic)
+**Task Level:** Level 1
 
+### **Key Tasks Performed**
 
-Task Level: Level 1 
+1. **Data Cleaning & Preprocessing**
 
-Key Tasks Performed
-1. Data Cleaning & Preprocessing 
+   * Filled missing Age values with the median; handled missing Embarked values using the mode.
+   * Dropped the Cabin column due to >75% missing values.
+   * Converted categorical variables (Sex, Embarked) into numerical types for analysis.
 
-Handling Missing Values:
+2. **Insight Generation**
 
-Filled missing Age values using the median to maintain data integrity.
+   * Generated summary statistics for Age and Fare.
+   * Calculated survival rates by **Gender** and **Passenger Class (Pclass)**.
 
-Handled missing Embarked values using the mode.
+3. **Data Visualization**
 
-Dropped the Cabin column due to high vacancy (over 75% missing).
+   * Bar plots for survival by gender and class.
+   * Correlation heatmap for numerical features.
+   * Age distribution plots showing survival density across age groups.
 
-Type Conversion:
+### **Tools & Libraries Used**
 
-Converted categorical variables (Sex and Embarked) into numerical types for correlation analysis.
+* Python, Pandas, Matplotlib, Seaborn
+* Kaggle Notebooks for development
 
-2. Insight Generation 
+### **Key Insights**
 
-Generated summary statistics to understand the central tendency of passenger age and fares.
-
-Calculated survival rates based on specific groups:
-
-
-Gender: Analyzed the survival probability of males vs. females.
-
-
-Passenger Class: Examined the impact of socio-economic status (Pclass) on survival.
-
-3. Data Visualization 
-
-Created Bar Plots to visualize survival disparities across genders and classes.
-
-Developed a Correlation Heatmap to identify relationships between numerical features.
-
-Plotted Age Distributions to see the survival density across different age groups.
-
-Tools & Libraries Used 
-
-
-Python: Core programming language.
-
-Pandas: For data manipulation and cleaning.
-
-
-Matplotlib & Seaborn: For creating statistical visualizations.
-
-Kaggle Notebooks: Environment used for development.
-
-Key Insights
-Gender was the most significant predictor of survival; females had a much higher survival rate than males.
-
-Passenger Class (Pclass) showed a strong correlation with survival, with 1st-class passengers having the highest survival probability.
-
-There was a noticeable survival density among young children, supporting the "women and children first" historical narrative.
+* **Gender** was the strongest predictor: females had much higher survival rates.
+* **Passenger Class (Pclass)** strongly correlated with survival: 1st-class passengers had the highest probability.
+* Young children showed higher survival density, reflecting the historical “women and children first” pattern.
